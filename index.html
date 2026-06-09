@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIP Rentals Associates, LLC | Metro Atlanta's Premier Rental Experts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">
+      <span class="nav-logo-main">VIP RENTALS</span>
+      <span class="nav-logo-sub">ASSOCIATES</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#why">The VIP Edge</a></li>
+      <li><a href="#testimonials">Endorsements</a></li>
+      <li><a href="#contact" class="nav-cta">Inquire</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid-overlay"></div>
+    
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <div class="hero-eyebrow-line"></div>
+        <span class="hero-eyebrow-text">Metro Atlanta's Elite Portfolio</span>
+      </div>
+      <h1>Bespoke Rental <em>Placement</em> & Management</h1>
+      <p class="hero-desc">Connecting discerning owners with high-profile corporate, film, and executive clients across Atlanta's most prestigious zip codes.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">List Your Property</a>
+        <a href="#services" class="btn-secondary">Explore Services</a>
+      </div>
+    </div>
+
+    <div class="hero-agent-wrap">
+      <div class="hero-agent-card">
+        <img src="agent.jpg" alt="Executive Placement Specialist" class="hero-agent-img">
+        <div class="hero-agent-info">
+          <div class="hero-agent-title">Premier Representation</div>
+          <div class="hero-agent-name">VIP Placement Team</div>
+          <div class="hero-agent-loc">Atlanta, GA</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="stats-strip">
+    <div class="stat-item">
+      <span class="stat-number">$14M+</span>
+      <span class="stat-label">Volume Placed</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">45 Days</span>
+      <span class="stat-label">Avg. Turnaround</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">98.4%</span>
+      <span class="stat-label">Retention Rate</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">1-on-1</span>
+      <span class="stat-label">Dedicated Advisory</span>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="services-top">
+      <div>
+        <div class="section-eyebrow">
+          <div class="section-eyebrow-line"></div>
+          <span class="section-eyebrow-text">Our Capabilities</span>
+        </div>
+        <h2 class="section-title">White-Glove Asset <em>Management</em></h2>
+      </div>
+      <p class="section-lead">We treat your property as an institutional investment, prioritizing elite-tier tenants, maximizing high-yield returns, and preserving flawless equity.</p>
+    </div>
+
+    <div class="svc-tabs">
+      <button class="svc-tab active" onclick="switchPanel('placement', this)">Tenant Placement</button>
+      <button class="svc-tab" onclick="switchPanel('corporate', this)">Corporate Housing</button>
+      <button class="svc-tab" onclick="switchPanel('consulting', this)">Portfolio Advisory</button>
+    </div>
+
+    <div class="svc-panels">
+      <div class="svc-panel active" id="panel-placement">
+        <div class="svc-panel-inner">
+          <div class="svc-panel-left">
+            <svg class="svc-large-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            <div>
+              <h3>Rigorous <em>Vetting</em>, Total Security</h3>
+              <p>We source top-tier corporate tenants, athletes, and production executives, managing every metric of financial verification, criminal screening, and credit performance.</p>
+            </div>
+            <a href="#contact" class="svc-cta-link">Inquire About Placement <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg></a>
+          </div>
+          <div class="svc-panel-right">
+            <div class="svc-features">
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>High-Net-Worth Sourcing</h4>
+                <p>Direct integration with corporate HR departments, relocation firms, and talent networks.</p>
+              </div>
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Customized Lease Controls</h4>
+                <p>Strictly legal, meticulously drafted lease agreements customized for multi-million dollar assets.</p>
+              </div>
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>In-Depth Background Vetting</h4>
+                <p>Advanced screening logic checking background records, active assets, and employment histories.</p>
+              </div>
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Seamless Turnkey Handover</h4>
+                <p>Complete condition inventories, utility transition controls, and absolute asset preparation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="svc-panel" id="panel-corporate">
+        <div class="svc-panel-inner">
+          <div class="svc-panel-left">
+            <svg class="svc-large-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+            <div>
+              <h3>Premium <em>Corporate</em> Housing Pipelines</h3>
+              <p>Maximize monthly rental revenue by leveraging corporate housing demands. We position your listing directly inside institutional booking portals for executive stays.</p>
+            </div>
+            <a href="#contact" class="svc-cta-link">Request Rental Strategy <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg></a>
+          </div>
+          <div class="svc-panel-right">
+            <div class="svc-features">
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Premium Rate Pricing</h4>
+                <p>Earn significantly higher margins per square foot compared to basic localized lease terms.</p>
+              </div>
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Full Maintenance Shield</h4>
+                <p>Frequent professional visual inspections and detailing routines keep your asset pristine.</p>
+              </div>
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Insurance Overlays</h4>
+                <p>Protected placement utilizing secondary structural damage insurance and commercial policies.</p>
+              </div>
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Film & Entertainment Stays</h4>
+                <p>Exclusive connections with production studios filming inside the Atlanta perimeter.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="svc-panel" id="panel-consulting">
+        <div class="svc-panel-inner">
+          <div class="svc-panel-left">
+            <svg class="svc-large-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"/></svg>
+            <div>
+              <h3>Data-Driven <em>Portfolio</em> Amplification</h3>
+              <p>Let us audit your current real estate layout. We map exact market demand to optimize your pricing, build equity, and structure clean property holding setups.</p>
+            </div>
+            <a href="#contact" class="svc-cta-link">Book Portfolio Review <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg></a>
+          </div>
+          <div class="svc-panel-right">
+            <div class="svc-features">
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Yield Analysis Optimization</h4>
+                <p>Complete mathematical modeling contrasting short-term luxury stay returns against predictable long-term asset models.</p>
+              </div>
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Design & Staging Advisory</h4>
+                <p>Interior design blueprints tailored explicitly to capture higher daily or monthly premium rates.</p>
+              </div>
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Strategic Risk Minimization</h4>
+                <p>Asset placement structuring designed to safeguard real estate value long term.</p>
+              </div>
+              <div class="svc-feature">
+                <div class="svc-feature-dot"></div>
+                <h4>Localized Capital Sourcing</h4>
+                <p>Advanced tracking of upcoming civic developments and infrastructure changes in Metro Atlanta.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="process-intro reveal">
+      <div>
+        <div class="section-eyebrow">
+          <div class="section-eyebrow-line"></div>
+          <span class="section-eyebrow-text">Seamless Execution</span>
+        </div>
+        <h2 class="section-title">The Onboarding <em>Journey</em></h2>
+      </div>
+      <p class="section-lead">We minimize onboarding complexity. Our process shifts your residential or high-end commercial property into the active luxury market cleanly and securely.</p>
+    </div>
+
+    <div class="process-timeline reveal">
+      <div class="timeline-step">
+        <div class="timeline-node"><span class="node-num">01</span></div>
+        <h4>Asset Strategy Consultation</h4>
+        <p>We review your home layout, evaluate localized structural trends, and outline exact optimal rental targets.</p>
+        <span class="timeline-tag">Phase One</span>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-node"><span class="node-num">02</span></div>
+        <h4>Premium Editorial Presentation</h4>
+        <p>Our production team develops clean media, cinematic video layout structures, and high-end platform copy.</p>
+        <span class="timeline-tag">Phase Two</span>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-node"><span class="node-num">03</span></div>
+        <h4>Private Sourcing Sync</h4>
+        <p>We leverage our internal list of corporate accounts, private relocation agencies, and premium directories.</p>
+        <span class="timeline-tag">Phase Three</span>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-node"><span class="node-num">04</span></div>
+        <h4>Placement & Governance</h4>
+        <p>We handle final escrow structures, sign custom legal lease terms, and initialize ongoing concierge care.</p>
+        <span class="timeline-tag">Complete</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="why">
+    <div class="why-header-strip reveal">
+      <div>
+        <div class="section-eyebrow">
+          <div class="section-eyebrow-line"></div>
+          <span class="section-eyebrow-text">Distinctive Excellence</span>
+        </div>
+        <h2 class="section-title">Why Luxury Hosts <em>Choose</em> VIP</h2>
+      </div>
+    </div>
+
+    <div class="why-outer reveal">
+      <div class="why-left">
+        <span class="why-left-badge">Core Ideology</span>
+        <div>
+          <p class="why-left-quote">"We do not collect standard listings; we represent distinguished real estate assets."</p>
+          <p class="why-big-label">Our focus remains entirely on custom-built advisory and total client privacy protection.</p>
+        </div>
+        <div class="why-left-footer">VIP Rentals Associates, LLC</div>
+      </div>
+      <div class="why-right">
+        <div class="why-cell">
+          <span class="why-cell-num">// 01</span>
+          <svg class="why-cell-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          <h4>Uncompromising Anonymity</h4>
+          <p>We keep your personal information, active address profiles, and structural data private from open online queries.</p>
+        </div>
+        <div class="why-cell">
+          <span class="why-cell-num">// 02</span>
+          <svg class="why-cell-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          <h4>Dynamic Localized Systems</h4>
+          <p>Our pricing analytics dynamically shift according to major Atlanta conventions, sports dates, and studio bookings.</p>
+        </div>
+        <div class="why-cell">
+          <span class="why-cell-num">// 03</span>
+          <svg class="why-cell-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h2a2 2 0 01-2-2z"/></svg>
+          <h4>Optimized Revenue Control</h4>
+          <p>We consistently outperform standard market yield paths by blending multi-tier leasing structures elegantly.</p>
+        </div>
+        <div class="why-cell">
+          <span class="why-cell-num">// 04</span>
+          <svg class="why-cell-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+          <h4>Bespoke Concierge Network</h4>
+          <p>We provide standard asset cleanup, emergency plumbing repair oversight, and absolute white-glove vendor coverage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="numbers">
+    <div class="numbers-header reveal">
+      <h2 class="section-title">Measurable <em>Impact</em> Marketwide</h2>
+      <p class="section-lead">Our data outlines our dedication. We scale real estate investment value across Metro Atlanta's key corporate zones.</p>
+    </div>
+
+    <div class="numbers-grid reveal">
+      <div class="num-card num-card--large">
+        <div class="num-card-inner">
+          <span class="num-eyebrow">Aggregate Premium Incomes</span>
+          <div class="num-value">35<span class="num-pct">%</span></div>
+          <p class="num-desc">Average expansion in gross rental yield achieved across our active portfolio compared to basic long-term standard lease frameworks.</p>
+        </div>
+        <div class="num-card-accent"></div>
+      </div>
+      <div class="num-card">
+        <span class="num-eyebrow">Corporate Pipeline Sync</span>
+        <div class="num-value">500<span class="num-plus">+</span></div>
+        <p class="num-desc">Vetted corporate relocation teams, film production agencies, and sports managers actively sourcing assets through our firm.</p>
+      </div>
+      <div class="num-card">
+        <span class="num-eyebrow">Asset Security Performance</span>
+        <div class="num-value">0<span class="num-unit">Incidents</span></div>
+        <p class="num-desc">Absolute structural compliance record maintained across all corporate and media team placements over years of operational service.</p>
+      </div>
+      <div class="num-card">
+        <span class="num-eyebrow">Average Portfolio Retention</span>
+        <div class="num-value">4.8<span class="num-unit">Years</span></div>
+        <p class="num-desc">Sustained relationships with property holding trusts and real estate owners who rely on our continuous asset stewardship.</p>
+      </div>
+      <div class="num-card">
+        <span class="num-eyebrow">Turnaround Velocity</span>
+        <div class="num-value">14<span class="num-unit">Days</span></div>
+        <p class="num-desc">Average timeline required to transition an onboarded property listing securely into our verified corporate booking network.</p>
+      </div>
+    </div>
+
+    <div class="numbers-banner reveal">
+      <span class="numbers-banner-text">Ready to unlock your property's absolute financial performance potential?</span>
+      <a href="#contact" class="btn-primary">Connect With Us</a>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="trust-layout reveal">
+      <div>
+        <div class="section-eyebrow">
+          <div class="section-eyebrow-line"></div>
+          <span class="section-eyebrow-text">Trusted Endorsements</span>
+        </div>
+        <h2 class="section-title">Client <em>Endorsements</em></h2>
+        <p class="section-lead">"VIP Rentals completely changed how I manage my Midtown high-rise assets. Their executive tenants are stellar, and my net revenue expanded dramatically from month one."</p>
+        <p class="trust-sub">— Luxury Property Trust Owner, Buckhead, GA</p>
+
+        <div class="trust-agent-block">
+          <div class="trust-agent-photo-wrap">
+            <img src="bio.jpg" alt="Partner Profile Photo" class="trust-agent-photo">
+            <div class="trust-agent-overlay">
+              <div class="trust-agent-name">Senior Placement Director</div>
+              <div class="trust-agent-role">VIP Rentals Corporate Lead</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trust-right">
+        <div class="trust-value-card">
+          <svg class="tvc-icon" width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          <h4>Guaranteed Shield</h4>
+          <p>Meticulous documentation protects your property asset line by line.</p>
+        </div>
+        <div class="trust-value-card">
+          <svg class="tvc-icon" width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <h4>Maximum Yield</h4>
+          <p>Advanced rate systems capture peak returns consistently during high-demand corporate events.</p>
+        </div>
+        <div class="trust-value-card">
+          <svg class="tvc-icon" width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          <h4>Concierge Response</h4>
+          <p>Immediate on-call operational team answers any maintenance issue fast.</p>
+        </div>
+        <div class="trust-value-card">
+          <svg class="tvc-icon" width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          <h4>Zero Friction</h4>
+          <p>Complete execution handles all lease terms, cleaning, clear documentation, and payouts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-top-bar">
+      <span class="contact-top-bar-text">Initiate Private Representation</span>
+      <span class="contact-top-bar-badge">Strictly Confidential</span>
+    </div>
+    
+    <div class="contact-body">
+      <div class="contact-sidebar">
+        <h3 class="contact-sidebar-title">Let Us Value Your <em>Asset</em></h3>
+        <p class="contact-sidebar-desc">Connect with an executive partner to assess placement capacity, projected rental rates, and portfolio optimization options.</p>
+        
+        <div class="contact-info-list">
+          <div class="contact-info-row">
+            <div class="cir-icon"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
+            <div>
+              <div class="cir-label">Direct Line</div>
+              <div class="cir-value">404.555.0190</div>
+            </div>
+          </div>
+          <div class="contact-info-row">
+            <div class="cir-icon"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg></div>
+            <div>
+              <div class="cir-label">Inquiries</div>
+              <div class="cir-value">concierge@viprentals.com</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-licensed">
+          <div class="contact-licensed-dot"></div>
+          <span>Licensed Brokerage Context</span>
+        </div>
+      </div>
+
+      <div class="contact-form-area">
+        <div class="form-title">PROPERTY INITIALIZATION PORTAL</div>
+        <form onsubmit="handleSubmit(event)">
+          <div class="cform-grid">
+            <div>
+              <label class="cform-label">Full Name</label>
+              <input type="text" class="cform-input" required placeholder="Johnathan Vance">
+            </div>
+            <div>
+              <label class="cform-label">Email Address</label>
+              <input type="email" class="cform-input" required placeholder="j.vance@vanceholdings.com">
+            </div>
+            <div>
+              <label class="cform-label">Property Neighborhood</label>
+              <select class="cform-select">
+                <option>Buckhead</option>
+                <option>Midtown</option>
+                <option>Inman Park / Old Fourth Ward</option>
+                <option>Chastain Park</option>
+                <option>Metro Atlanta Area</option>
+              </select>
+            </div>
+            <div>
+              <label class="cform-label">Asset Type</label>
+              <select class="cform-select">
+                <option>Luxury Single Family Residence</option>
+                <option>Premium High-Rise Penthouse</option>
+                <option>Multi-Unit Luxury Portfolio</option>
+                <option>Commercial / Production Space</option>
+              </select>
+            </div>
+            <div class="cform-full">
+              <label class="cform-label">Asset Details & Vision</label>
+              <textarea class="cform-textarea" placeholder="Please mention any distinctive historical details, interior finishes, or timeline parameters..."></textarea>
+            </div>
+            <div class="cform-submit-row">
+              <p class="cform-privacy">Your transmission is protected by commercial end-to-end security protocols. We do not distribute private asset metrics to third-party databases.</p>
+              <button type="submit" class="cform-btn">Submit Portfolio Request</button>
+            </div>
+          </div>
+        </form>
+        <div class="licensed-badge">VIP Rentals Professional Network Support</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-layout">
+      <div class="footer-brand">
+        <div class="footer-logo">VIP RENTALS ASSOCIATES</div>
+        <p class="footer-tagline">Providing bespoke asset stewardship, high-profile corporate tenant access, and premium yields for Atlanta's elite investors.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigation</h5>
+        <ul class="footer-links">
+          <li><a href="#services">Our Capabilities</a></li>
+          <li><a href="#process">The Process</a></li>
+          <li><a href="#why">The VIP Edge</a></li>
+          <li><a href="#testimonials">Client Endorsements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Corporate Office</h5>
+        <ul class="footer-links">
+          <li><a href="#contact">Inquire Privately</a></li>
+          <li><a href="#">Atlanta Corporate Center</a></li>
+          <li><a href="#">Broker Compliance Data</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; 2026 VIP Rentals Associates, LLC. All Portfolio Rights Reserved. Built with uncompromising standards.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Protocol</a>
+        <a href="#">Terms of Engagement</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
