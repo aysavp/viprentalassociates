@@ -1,1 +1,18 @@
-theme: null
+include:
+  - _includes
+  - _layouts
+  - _sass
+  - _assets
+  - assets
+  - images
+exclude:
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+  - package.json
+  - package-lock.json
+
+url: "https://aysavp.github.io"
+baseurl: "/viprentalassociates"
